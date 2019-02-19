@@ -5,8 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/fontawesome.js"
-     integrity="sha384-7ox8Q2yzO/uWircfojVuCQOZl+ZZBg2D2J5nkpLqzH1HY0C1dHlTKIbpRz/LG23c" crossorigin="anonymous"></script>
+    
 
     <title>Starter Template for Bootstrap</title>
 
@@ -14,95 +13,122 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-
-    <link rel="stylesheet" href="css/normalize.css">
-    <link href="css/style.css" rel="stylesheet">
-
-    <link rel="stylesheet" href="css/all.min.css">
+    
     <link rel="icon" href="img/favicon-logo.ico">
+    <link rel="stylesheet" href="animate.css">
+    <link rel="stylesheet" href="css/mainLS.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,900" rel="stylesheet">
    
   </head>
 
   <body>
 
-    <div class="container-fluid ">
-        <div class="azulExp"></div>
-        <header class="row align-items-center fixed-top pl-3 pr-3 azulExp">
-            <div class="col-4 navbar-brand">
-                <img src="img/logoBlanco.png" alt="logo expresa" class="img-fluid col-12">
-            </div>
-            <div class="col-8 text-right fa-blanco col-3 ">
-                <i class="fas fa-bars"></i>
-            </div>
-        </header>
-     </div>
+    <div class="containerfluid bg-primary sticky-top">
+      <div class="container">
+        
+          <nav class="navbar navbar-expand-lg navbar-light ">
 
-        <section class="container-fluid vh-100">
-            <div class="row purpuraExp pb-5">
-                <div class="col-12 text-center no-gutter">
-                    <img src="img/tomaTodo.png" alt="" class=" img-fluid p-2">
-                </div>
-                <div class="col-12 text-center fa-blanco">
-                    <h2 class="display-4 font-weight-normal">Merchandising</h2>
-                    <h3 class="font-weight-light">IMPRESION DIGITAL</h3>
-                    <div class="row pt-2">
-                        <div class="col-8 offset-2 bg-warning">
-                            <h2 class="display-1 font-weight-bold pb-0">UV</h2>
-                            <p class="h5"><small class="pt-0">FORMATO 60X40</small></p>
-                        </div>
-                    </div>
-                </div>
+            <a class="navbar-brand" href="#"><img src="img/logoBlanco.png" alt="" class="logoExpresa"></a>
 
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                  <a class="nav-link text-light" href="#">Inicio <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-light" href="#">Productos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-light" href="#">Contacto</a>
+                </li>
+              </ul>
             </div>
+          </nav>
 
-            <div class="row fondoNaranjaExp vh-100">
-                <div class="col-12 text-center no-gutter">
-                    <img src="img/taza.png" alt="" class=" img-fluid p-2 pt-5">
+        
+      </div>
+    </div> <!-- fin Nav -->
+
+
+
+          <div id="carouselExampleControls" class="carousel slide altoSlide" data-ride="carousel">
+            <div class="carousel-inner">
+          
+              <div class="carousel-item active table-success  pMed  pPqña">
+                <div class="row justify-content-center align-items-center d-flex " style="height: 400px">
+                  <h2 class="col-lg-7 col-10 order-2 order-sm-1 text-md-right text-center text-warning  fontMonse fontMonsePQ  animated bounceInLeft delay-0.5s">Sublimados<br><p class="h1 text-dark mt-md-3   animated bounceInUp delay-0.5s fontMonsePQ-P">Sobre toda superficie</p></h2>
+                  <div class="col-lg-5 col-10 order-1 order-sm-2   animated bounceInDown delay-0.5s"><img src="img/taza.png" alt="" class="img-fluid m-auto"></div>
                 </div>
-                <div class="col-12 text-center fa-blanco">
-                    <h2 class="display-4 font-weight-normal">Sublimados</h2>
-                    <h3 class="font-weight-light">Entrega a domicilio</h3>
-                    <div class="row pt-2">
-                        <div class="col-8 offset-2 naranjaExp">
-                            <h2 class="display-4 font-weight-bold pb-0">24 HORAS</h2>
-                            <p class="h5"><small class="pt-0">Lorem ipsum dolor sit amet.</small></p>
-                        </div>
-                    </div>
+          
+          
+              </div>
+              <div class="carousel-item table-warning  pMed  pPqña">
+                <div class="row justify-content-center align-items-center d-flex " style="height: 400px">
+                  <h2 class="col-lg-6 col-10 order-2 order-sm-1 text-md-right text-center text-danger  fontMonse fontMonsePQ  animated bounceInLeft delay-0.5s">Impresión <br>Digital <br><p class="h1 text-dark mt-md-3   animated bounceInUp delay-0.5s fontMonsePQ-P">Resolución 1440 dpi</p></h2>
+                  <div class="col-lg-6 col-10 order-1 order-sm-2   animated bounceInDown delay-0.5s"><img src="img/packExpresa.png" alt="" class="img-fluid "></div>
                 </div>
+              </div>
+          
+              <div class="carousel-item bg-warning  pMed  pPqña" >
+                <div class="row justify-content-center align-items-center d-flex " style="height: 400px">
+                  <div class="col-lg-5 col-12 order-1 order-sm-2   animated bounceInDown delay-0.5s"><img src="img/tomaTodo1.png" alt="" class="img-fluid "></div>
+                  <h2 class="col-lg-7 col-12 order-2 order-sm-1 text-md-right text-center text-danger  fontMonse fontMonsePQ  animated bounceInLeft delay-0.5s  ">Productos <br><span">Personalizados</span><br><p class="h1 text-dark    animated bounceInUp delay-0.5s fontMonsePQ-P">Resolución 1440 dpi</p></h2>
+                </div>
+          
+              </div>
             </div>
-    
-            <div class="row fondoAzulExp vh-100">
-                <div class="col-12 text-center ">
-                    <img src="img/packExpresa.png" alt="" class=" img-fluid">
-                </div>
-                <div class="col-12 text-center fa-blanco">
-                    <h2 class="display-5 font-weight-normal">SUPER PACK</h2>
-                    <h3 class="font-bowlby">PERSONA <br>LIZA-T</h3>
-                </div>
-            </div>
-    
             
-        </section>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
 
-        <section class="container-fluid fondoNaranjaExp  vh-100">
-            
-        </section>
-      
+      <div class="container">
+        <div class="col-12">
+        </div>
+
+      </div>
+        
 
 
 
-        <footer class="row fa-blanco bg-dark fixed-bottom text-center justify-content-between">
-            <div class="col-10 pt-3"> <!-- whatsApp -->
-                <a href="https://wa.me/5211234567890" class=""><p class=""><i class="fab fa-whatsapp"> 964 226305</p></i></a>
+
+      <!-- inicio carousel 
+      <div class="col-12 bg-secondary">
+
+          <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner sliderLS">
+              <div class="carousel-item active sliderLS">
+                <img class="d-block w-100 sliderLS-img" src="img/slider-01.jpg" alt="First slide">
+              </div>
+              <div class="carousel-item sliderLS">
+                <img class="d-block w-100 sliderLS-img" src="img/slider-02.jpg" alt="Second slide">
+              </div>
+              <div class="carousel-item sliderLS">
+                <img class="d-block w-100 sliderLS-img" src="img/slider-03.jpg" alt="Third slide">
+              </div>  
             </div>
-            <div class="col-2 pr-5 pt-3 border-left bg-secondary"> <!-- googlemaps-->
-                <a href="https://goo.gl/maps/bHMkguJiuv82"><i class="fas fa-map-marker-alt"></i></a>
-            </div>
-        </footer> <!--fin WhatsApp y Mapa-->
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div> -->
 
+      </div> <!--fin carousel-->
 
-
-   <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3902.0088462704384!2d-77.04568548518745!3d-12.042911691469891!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c8cd43907bb9%3A0xae55b10f768d9ab8!2sCentro+Comercial+UNICENTRO!5e0!3m2!1ses!2spe!4v1550247857855" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe> -->
 
 
 
@@ -113,7 +139,16 @@
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
     integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/fontawesome.js"
+     integrity="sha384-7ox8Q2yzO/uWircfojVuCQOZl+ZZBg2D2J5nkpLqzH1HY0C1dHlTKIbpRz/LG23c" crossorigin="anonymous"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="mainLS.js"></script>
+
+    <script>
+      $('.carousel').carousel({
+        interval: 2200
+      })
+    </script>
 
     <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
   </body>
